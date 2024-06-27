@@ -1,0 +1,438 @@
+Build started at 2024-06-27T20:06:05.668048
+Main binary: /usr/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.4.1
+Source dir: /home/greneboy/.local/src/wmenu
+Build dir: /home/greneboy/.local/src/wmenu/build
+Build type: native build
+Project name: wmenu
+Project version: 0.1.9
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (GCC) 14.1.1 20240522
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: cc -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.42.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 14.1.1 20240522
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoOY6XJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/greneboy/.local/src/wmenu/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 14.1.1 "cc (GCC) 14.1.1 20240522")
+C linker for the host machine: cc ld.bfd 2.42.0
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.42.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (GCC) 14.1.1 20240522
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: cc -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.42.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 14.1.1 20240522
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmnhlS8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/greneboy/.local/src/wmenu/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 14.1.1 "cc (GCC) 14.1.1 20240522")
+C linker for the build machine: cc ld.bfd 2.42.0
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.42.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmpfbmvm53s
+Code:
+ extern int i;
+int i;
+
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmpfbmvm53s/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmpfbmvm53s/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 '-DVERSION="0.1.9"'` -> 0
+Compiler for C supports arguments -DVERSION="0.1.9": YES 
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmps8t448rb
+Code:
+ extern int i;
+int i;
+
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmps8t448rb/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmps8t448rb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-field-initializers -Wno-missing-field-initializers` -> 0
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmpnwd3swd4
+Code:
+ extern int i;
+int i;
+
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmpnwd3swd4/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmpnwd3swd4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter` -> 0
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmptx_kj7mg
+Code:
+ extern int i;
+int i;
+
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmptx_kj7mg/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmptx_kj7mg/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef` -> 0
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmp50p7qgl3
+Code:
+ extern int i;
+int i;
+
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmp50p7qgl3/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmp50p7qgl3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wvla` -> 0
+Compiler for C supports arguments -Wvla: YES 
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 2.1.1
+Determining dependency 'cairo' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion cairo` -> 0
+stdout:
+1.18.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags cairo` -> 0
+stdout:
+-I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/pixman-1
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs cairo` -> 0
+stdout:
+-L/usr/lib -lcairo
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs cairo` -> 0
+stdout:
+-lcairo
+-----------
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmpcukksiyf
+Code:
+ 
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmpcukksiyf/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmpcukksiyf/output.exe -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmpfh0pfgo2
+Code:
+ 
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmpfh0pfgo2/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmpfh0pfgo2/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/14.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/14.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../x86_64-pc-linux-gnu/14.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib/:/lib/x86_64-pc-linux-gnu/14.1.1/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/14.1.1/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/../../../:/lib/:/usr/lib/
+-----------
+Run-time dependency cairo found: YES 1.18.0
+Determining dependency 'pango' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion pango` -> 0
+stdout:
+1.54.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags pango` -> 0
+stdout:
+-I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pango` -> 0
+stdout:
+-L/usr/lib -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pango` -> 0
+stdout:
+-lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz
+-----------
+Run-time dependency pango found: YES 1.54.0
+Determining dependency 'pangocairo' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion pangocairo` -> 0
+stdout:
+1.54.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags pangocairo` -> 0
+stdout:
+-I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pangocairo` -> 0
+stdout:
+-L/usr/lib -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lcairo
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pangocairo` -> 0
+stdout:
+-lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lcairo
+-----------
+Run-time dependency pangocairo found: YES 1.54.0
+Determining dependency 'wayland-client' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion wayland-client` -> 0
+stdout:
+1.23.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags wayland-client` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayland-client` -> 0
+stdout:
+-L/usr/lib -lwayland-client
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayland-client` -> 0
+stdout:
+-lwayland-client
+-----------
+Run-time dependency wayland-client found: YES 1.23.0
+Determining dependency 'wayland-protocols' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion wayland-protocols` -> 0
+stdout:
+1.36
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags wayland-protocols` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayland-protocols` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayland-protocols` -> 0
+Run-time dependency wayland-protocols found: YES 1.36
+Determining dependency 'xkbcommon' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion xkbcommon` -> 0
+stdout:
+1.7.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags xkbcommon` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs xkbcommon` -> 0
+stdout:
+-L/usr/lib -lxkbcommon
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs xkbcommon` -> 0
+stdout:
+-lxkbcommon
+-----------
+Run-time dependency xkbcommon found: YES 1.7.0
+Running compile:
+Working directory:  /home/greneboy/.local/src/wmenu/build/meson-private/tmp17db7gpn
+Code:
+ int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/greneboy/.local/src/wmenu/build/meson-private/tmp17db7gpn/testfile.c -o /home/greneboy/.local/src/wmenu/build/meson-private/tmp17db7gpn/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lrt -Wl,--allow-shlib-undefined` -> 0
+Library rt found: YES
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=pkgdatadir wayland-protocols` -> 0
+stdout:
+//usr/share/wayland-protocols
+-----------
+Got pkg-config variable pkgdatadir : //usr/share/wayland-protocols
+Determining dependency 'wayland-scanner' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion wayland-scanner` -> 0
+stdout:
+1.23.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags wayland-scanner` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayland-scanner` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs wayland-scanner` -> 0
+Build-time dependency wayland-scanner found: YES 1.23.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=wayland_scanner wayland-scanner` -> 0
+stdout:
+/usr/bin/wayland-scanner
+-----------
+Got pkg-config variable wayland_scanner : /usr/bin/wayland-scanner
+Program /usr/bin/wayland-scanner found: YES (/usr/bin/wayland-scanner)
+Determining dependency 'scdoc' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion scdoc` -> 0
+stdout:
+1.11.3
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags scdoc` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs scdoc` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs scdoc` -> 0
+Build-time dependency scdoc found: YES 1.11.3
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=scdoc scdoc` -> 0
+stdout:
+/usr/bin/scdoc
+-----------
+Got pkg-config variable scdoc : /usr/bin/scdoc
+Program /usr/bin/scdoc found: YES (/usr/bin/scdoc)
+Build targets in project: 10
+
+Found ninja-1.12.1 at /usr/bin/ninja
+Failed to guess install tag for /usr/local/share/man/man1/wmenu.1
+Failed to guess install tag for /usr/local/share/man/man1/wmenu.1
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
