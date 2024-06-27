@@ -9,7 +9,7 @@ $ git clone https://github.com/greneboy/self-dwl-setup
 ```
 
 ## Dependencies
-- `gcc`, `cmake`, `make` and, `ninja` as a compiler.
+- `gcc`, `meson`, `cmake`, `make` and, `ninja` as a compiler.
 - `libinput`, `wayland`, `wlroots`, `xkbcommon`, `wayland-protocols`, `pkg-config`, `libxcb`, `libxcb-wm` and, `Xwayland` as the component.
 
 ## `dwl`
