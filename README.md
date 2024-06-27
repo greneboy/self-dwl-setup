@@ -15,7 +15,7 @@ $ make
 ```
 > For more info: https://codeberg.org/dwl/dwl
 ## `wmenu`
-Also another fork for wayland from `dmenu`. It's written mostly in C++ and so go to the `wmenu` folder and;
+Also another fork for wayland from `dmenu`. Go to the `wmenu` folder and;
 ```sh
 $ meson build
 $ ninja -C build
